@@ -78,7 +78,7 @@ describe("applyDiscount", () => {
 });
 
 describe("printOddNumbers", () => {
-  test("printOddNumbers function prints odd numbers between 1 and 2", () => {
+  test("prints odd numbers between 1 and 2", () => {
     const consoleLogSpy = jest.spyOn(console, "log");
     printOddNumbers(2);
 
@@ -86,7 +86,7 @@ describe("printOddNumbers", () => {
     consoleLogSpy.mockRestore();
   });
 
-  test("printOddNumbers function prints odd numbers between 1 and 10", () => {
+  test("prints odd numbers between 1 and 10", () => {
     const consoleLogSpy = jest.spyOn(console, "log");
 
     printOddNumbers(10);
@@ -101,11 +101,11 @@ describe("printOddNumbers", () => {
 });
 
 describe("buyTwoGetTheCheapestFree", () => {
-  test("buyTwoGetTheCheapestFree function returns first price when it is largest", () => {
+  test("returns first price when it is largest", () => {
     expect(buyTwoGetTheCheapestFree(700, 500)).toEqual(700);
   });
 
-  test("buyTwoGetTheCheapestFree function returns second price when it is largest", () => {
+  test("returns second price when it is largest", () => {
     expect(buyTwoGetTheCheapestFree(500, 700)).toEqual(700);
   });
 });
@@ -137,7 +137,7 @@ describe("canRegister", () => {
 });
 
 describe("countReverse", () => {
-  test("countReverse function logs values from 7 to 1", () => {
+  test("logs values from 7 to 1", () => {
     const consoleLogSpy = jest.spyOn(console, "log");
 
     countReverse(7);
