@@ -15,15 +15,9 @@ function factorial(input) {
 /* ======= TESTS - DO NOT MODIFY ===== */
 
 describe("factorial", () => {
-  test("3! should be 6", () => {
+  test("will calculate the factorial of a given number", () => {
     expect(factorial(3)).toEqual(6);
-  });
-
-  test("5! should be 120", () => {
     expect(factorial(5)).toEqual(120);
-  });
-
-  test("10! should be 3628800", () => {
     expect(factorial(10)).toEqual(3628800);
   });
 });
