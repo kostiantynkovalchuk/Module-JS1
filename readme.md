@@ -22,23 +22,15 @@ There are some tools that will help you to write code. One of these, [Prettier](
 
 The files for the mandatory/extra exercises are intended to be run as jest tests.
 
-- Once you have cloned the repository, run `npm install` once in the terminal to install jest (and any necessary dependencies).
-- To run the tests for all mandatory/extra exercises, run `npm test`
-  To run all the tests for this block, you can run the following script:
-  `"npm test"`
-  `"npm test"` will invoke the following command:
-  `"jest --testMatch='\*\*/\*.js'"`
-- To run a single exercise/test (for example `mandatory/1-writer.js`), run `"jest --testMatch='\*\*/\*.js' -- --testPathPattern=fibonacci"s` (Remember, you can use tab-completion to get files relative to the current directory, so m`Tab ↹`/1-`Tab ↹` will autocomplete get you the test file starting with 1-)
+- Once you have cloned the repository, run `npm install` once in the terminal to install necessary dependencies.
+- To run the all tests, run `npm test`
+- To run the tests in a specific file (for example `writer.js`), run `"npm test -- --testPathPattern=writer"`
+ (Remember, you can use tab-completion to get files relative to the current directory, so m`Tab ↹`/1-`Tab ↹` will autocomplete get you the test file starting with 1-)
 
 For more information about tests, look here:
 
 https://syllabus.codeyourfuture.io/guides/intro-to-tests
 
-Try out variant way of running tests:
-
-- `npm test` -> run all mandatory and extra tests
-- `npm test -- --selectProjects mandatory` -> run only mandatory tests
-- `npm test -- --testPathPattern mandatory/1-syntax-errors.js` -> run single test
 
 ## Instructions for submission
 
