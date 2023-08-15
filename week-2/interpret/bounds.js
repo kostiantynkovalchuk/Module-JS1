@@ -14,5 +14,8 @@ function calculateErrorInterval(num, degreeOfAccuracy) {
 }
 
 console.log(
-  `error interval for 30 to the nearest 10 is ${calculateErrorInterval(30, 10)}`
+  `error interval for 30, rounded to the nearest 10 is ${calculateErrorInterval(
+    30,
+    10
+  )}`
 );
