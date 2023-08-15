@@ -5,3 +5,7 @@ function sum(a, b) {
 function multiply(a, b) {
   return a + b;
 }
+
+sum(10);
+
+multiply(sum(10));
