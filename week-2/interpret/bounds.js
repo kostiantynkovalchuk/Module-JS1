@@ -10,7 +10,7 @@ function calculateErrorInterval(num, degreeOfAccuracy) {
   const upperBound = calculateUpperBound(num, degreeOfAccuracy);
   const lowerBound = calculateLowerBound(num, degreeOfAccuracy);
 
-  return `${lowerBound} <= x < ${upperBound}`;
+  return `${lowerBound} <= num < ${upperBound}`;
 }
 
 console.log(
