@@ -46,3 +46,5 @@ function canRegister(age) {}
 */
 
 function countReverse(number) {}
+
+module.exports = { isAcceptableUser };
