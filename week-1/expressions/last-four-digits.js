@@ -1,5 +1,5 @@
-const num = 356689;
-const last4Digits = String(num).slice(-4);
+const cardNumber = 4533787178994213;
+const last4Digits = cardNumber.slice(-4);
 
 // The last4Digits variable should store the last 4 digits of num.
 // However, the code isn't working
