@@ -1,4 +1,2 @@
-let versionNumber = "2.5.3";
-versionNumber[versionNumber.length - 1] = "4"; // updating version number with a patch
-
-console.log(`The version number is now ${versionNumber}`);
+const 12HourClockTime = "20:53";
+const 24hourClockTime = "08:53";
