@@ -10,7 +10,7 @@ Now enter just `console` in the Console, what output do you get back?
 
 Try also entering `typeof console`
 
-Try answering the following questions:
+Answer the following questions:
 
 What does `console` store?
-What does the syntax `console.log` or `console.assert` mean. In particular, what does the `.` mean?
+What does the syntax `console.log` or `console.assert` mean? In particular, what does the `.` mean?
