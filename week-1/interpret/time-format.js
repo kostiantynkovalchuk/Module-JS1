@@ -21,4 +21,4 @@ console.log(result);
 
 // d) Interpret line 4, what does the expression assigned to totalMinutes mean?
 
-// 3) Will this code work when the movieLength for all values?
+// 3) Try experimenting with different values of movieLength. Will this code work for all values of movieLength? Explain your answer

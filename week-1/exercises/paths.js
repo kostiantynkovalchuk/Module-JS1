@@ -1,3 +1,5 @@
+// The diagram below shows the different names for parts of a file path on a Unix operating system
+
 // ┌─────────────────────┬────────────┐
 // │          dir        │    base    │
 // ├──────┬              ├──────┬─────┤
