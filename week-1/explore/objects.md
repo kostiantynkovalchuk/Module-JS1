@@ -1,17 +1,16 @@
 ## Objects
 
-Open the Node REPL, type in `console` and then hit enter👍
+In this activity, we'll explore some additional concepts that you'll encounter in more depth later on in the course.
 
-```
-console.log
-```
+Open the Chrome devtools Console, type in `console.log` and then hit enter
 
-What output do you get? What does this tell the user about `console.log`?
+What output do you get?
 
-Now enter
+Now enter just `console` in the Console, what output do you get back?
 
-```
-console
-```
+Try also entering `typeof console`
 
-What output do you see this time? What does this tell user about `console`?
+Try answering the following questions:
+
+What does `console` store?
+What does the syntax `console.log` or `console.assert` mean. In particular, what does the `.` mean?
