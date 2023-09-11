@@ -17,8 +17,10 @@ console.log(result);
 
 // b) How many function calls are there?
 
-// c) Using documentation, explain what the expression totalSeconds % 60 represents
+// c) Using documentation, explain what the expression movieLength % 60 represents
 
 // d) Interpret line 4, what does the expression assigned to totalMinutes mean?
 
-// 3) Try experimenting with different values of movieLength. Will this code work for all values of movieLength? Explain your answer
+// e) What do you think the variable result represents? Can you think of a better name for this variable?
+
+// f) Try experimenting with different values of movieLength. Will this code work for all values of movieLength? Explain your answer
