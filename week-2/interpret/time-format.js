@@ -1,7 +1,17 @@
-// format time and pad together
+function pad(num) {
+  return num.toString().padStart(2, "0");
+}
 
-function pad() {}
+function formatSeconds(seconds) {
+  const remainingSeconds = seconds % 60;
+  const totalMinutes = (seconds - remainingSeconds) / 60;
+  const remainingMinutes = totalMinutes % 60;
+  const totalHours = (totalMinutes - remainingMinutes) / 60;
+  const remainingHours = totalHours % 24;
 
-function formatTime() {}
+  return `${pad(remainingHours)}:${pad(remainingMinutes)}:${pad(
+    remainingSeconds
+  )}`;
+}
 
-// use "playing computer" to answer some questions
+console.log(formatSeconds(2546));
