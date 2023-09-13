@@ -12,24 +12,31 @@
 // When the function rotateCharacter is called with these inputs,
 // Then it should:
 
-// Check Input Validity:
-// Given the char input, which must be a single character (a string of length 1),
-// And the shift input, which must be a number,
-// When the function is called with these inputs,
-// Then it should validate that char is a single character and shift is a number, throwing errors if either condition is not met.
-
-// Rotate Lowercase Letters:
+// Scenario: Rotate Lowercase Letters:
 // Given a lowercase letter character (char) and a positive integer shift,
 // When the function is called with these inputs,
 // Then it should rotate the lowercase letter by shift positions within the lowercase alphabet, wrapping around if necessary, and return the rotated lowercase letter as a string.
+console.log(rotateCharacter("a", 3)); // Output: "a"
+console.log(rotateCharacter("f", 1)); // Output: "f"
 
-// Rotate Uppercase Letters:
+// Scenario: Rotate Uppercase Letters:
 // Given an uppercase letter character (char) and a positive integer shift,
 // When the function is called with these inputs,
 // Then it should rotate the uppercase letter by shift positions within the uppercase alphabet, wrapping around if necessary, and return the rotated uppercase letter as a string.
+console.log(rotateCharacter("A", 3)); // Output: "D"
+console.log(rotateCharacter("F", 1)); // Output: "G"
 
-// Leave Non-Letter Characters Unchanged:
+// Scenario: Leave Non-Letter Characters Unchanged:
 // Given a character (char) that is not a letter (neither uppercase nor lowercase) and any positive or negative shift value,
 // When the function is called with these inputs,
 // Then it should return the character unchanged.
 // This specification outlines the behavior of the rotateCharacter function for different input scenarios, including valid and invalid characters, and defines the expected output or action for each case.
+console.log(rotateCharacter("7", 5)); // Output: "7" (unchanged, not a letter)
+
+// Scenario: Shifting a Character with Wraparound
+// Given a character char within the lowercase alphabet range (e.g., 'z') or the uppercase alphabet range (e.g., 'Z'),
+// And a positive integer shift that causes the character to wrap around the alphabet when rotated (e.g., a shift of 3 for 'z' or 'Z'),
+// When the rotateCharacter function is called with char and shift as inputs,
+// Then it should correctly rotate the character by shift positions within the alphabet while handling the wraparound,
+// And the function should return the rotated character as a string (e.g., 'z' rotated by 3 should become 'c', 'Z' rotated by 3 should become 'C').
+console.log(rotateCharacter("z", 1)); // Output: "a" (unchanged, not a letter)
