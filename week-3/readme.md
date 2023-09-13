@@ -28,4 +28,7 @@ Here is a recommended order:
 1. `is-proper-fraction.js`
 1. `get-card-value.js`
 1. `is-valid-triangle.js`
-1. `rotate-char.js`
+
+## 💪 Stretch
+
+Implement `rotateChar` as defined in `implement/rotate-char`
