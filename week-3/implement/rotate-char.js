@@ -13,23 +13,22 @@
 // Then it should:
 
 // Check Input Validity:
-
 // Given the char input, which must be a single character (a string of length 1),
 // And the shift input, which must be a number,
 // When the function is called with these inputs,
 // Then it should validate that char is a single character and shift is a number, throwing errors if either condition is not met.
-// Rotate Lowercase Letters:
 
+// Rotate Lowercase Letters:
 // Given a lowercase letter character (char) and a positive integer shift,
 // When the function is called with these inputs,
 // Then it should rotate the lowercase letter by shift positions within the lowercase alphabet, wrapping around if necessary, and return the rotated lowercase letter as a string.
-// Rotate Uppercase Letters:
 
+// Rotate Uppercase Letters:
 // Given an uppercase letter character (char) and a positive integer shift,
 // When the function is called with these inputs,
 // Then it should rotate the uppercase letter by shift positions within the uppercase alphabet, wrapping around if necessary, and return the rotated uppercase letter as a string.
-// Leave Non-Letter Characters Unchanged:
 
+// Leave Non-Letter Characters Unchanged:
 // Given a character (char) that is not a letter (neither uppercase nor lowercase) and any positive or negative shift value,
 // When the function is called with these inputs,
 // Then it should return the character unchanged.
