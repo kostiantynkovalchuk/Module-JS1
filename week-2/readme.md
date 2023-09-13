@@ -11,6 +11,12 @@ In this section, you need to go to each file in `debug` to **explain and predict
 ## Implement
 
 In this section, you will have a short set of requirements about a function. You will need to implement a function based off this set of requirements.Make sure you check your function works for a number of different inputs.
+Here is a recommended order:
+
+1. `to-pounds.js`
+2. `vat.js`
+3. `cases.js`
+4. `bmi.js`
 
 ## Interpret
 
