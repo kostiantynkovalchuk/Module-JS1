@@ -13,5 +13,4 @@ To be valid, a password must:
 - Must not be any previous password in the passwords array. 
 
 You must breakdown this problem in order to solve it. Find one test case first and get that working
-
 */
