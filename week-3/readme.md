@@ -13,7 +13,7 @@ You'll need to go back and look at some of the functions you implemented in week
 
 ## 🧹 Refactor
 
-In these problems, you'll be _given_ an implementation and then asked to change it. Once you've updated it you'll need to double check that the code is still working... you'll need to run the assertions again
+In these problems, you'll be _given_ an implementation and then asked to change it. Once you've updated the implementations you'll need to double check that they are still working!
 
 ## 🔧 Implement
 
