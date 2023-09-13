@@ -25,6 +25,13 @@ For each function, you also have a number of different cases you'll need to chec
 
 Use the acceptance criteria as an aid in writing tests to check your functionality.
 
+Recommended order:
+
+1. `get-ordinal-number.test.js`
+1. `count.test.js`
+1. `repeat.test.js`
+1. `is-prime.test.js`
+
 ## 💪 Stretch
 
 Try implementing the functions specified in `password-validator.js` and `card-validator.md`
