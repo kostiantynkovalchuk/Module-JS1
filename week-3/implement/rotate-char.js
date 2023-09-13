@@ -6,7 +6,7 @@
 // This function is commonly used for text encryption and decryption,
 // where shifting characters by a certain value can obscure their meaning or reveal hidden messages.
 
-// Description:
+// Acceptance criteria:
 
 // Given a character (char) and a shift value (shift),
 // When the function rotateCharacter is called with these inputs,
@@ -33,7 +33,3 @@
 // When the function is called with these inputs,
 // Then it should return the character unchanged.
 // This specification outlines the behavior of the rotateCharacter function for different input scenarios, including valid and invalid characters, and defines the expected output or action for each case.
-
-console.log(rotateCharacter("A", 3)); // Output: "D"
-console.log(rotateCharacter("z", 1)); // Output: "a"
-console.log(rotateCharacter("7", 5)); // Output: "7" (unchanged, not a letter)

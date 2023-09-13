@@ -1,9 +1,10 @@
 // This problem involves playing cards: https://en.wikipedia.org/wiki/Standard_52-card_deck
 
-// You will need to implement a function getCardValue that
-// gives you the card value of a card in the game of black jack
+// You will need to implement a function getCardValue
 
 // You need to write assertions for your function to check it works in different cases
+
+// Acceptance criteria:
 
 // Given a card string in the format "A♠" (representing a card in blackjack),
 // When the function getCardValue is called with this card string as input,

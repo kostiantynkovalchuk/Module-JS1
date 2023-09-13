@@ -1,11 +1,12 @@
 // Implement a function isValidTriangle
 
+// Acceptance criteria:
+
 // Given the lengths of three sides of a triangle (a, b, c),
 // When the function isValidTriangle is called with these side lengths as input,
 // Then it should:
 
 // Check for Valid Input:
-
 // Given the side lengths a, b, and c,
 // When any of the side lengths is less than or equal to zero,
 // Then it should return "Invalid" because a triangle cannot have zero or negative side lengths.

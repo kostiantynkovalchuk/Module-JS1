@@ -1,5 +1,7 @@
 // You will need to implement a function getAngleType
 
+// Acceptance criteria:
+
 // Given an angle in degrees,
 // When the function getAngleType is called with this angle,
 // Then it should:
