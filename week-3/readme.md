@@ -11,6 +11,10 @@ You'll need to go back and look at some of the functions you implemented in week
 
 - Write some assertions down for the function
 
+## 🧹 Refactor
+
+In these problems, you'll be _given_ an implementation and then asked to change it. Once you've updated it you'll need to double check that the code is still working... you'll need to run the assertions again
+
 ## 🔧 Implement
 
 In the `implement` directory you've got a number of functions you'll need to implement.
@@ -18,6 +22,10 @@ For each function, you also have a number of different cases you'll need to chec
 
 _Write assertions_ for the different cases using `console.assert` to check your functions as you're implementing them.
 
-## 🧹 Refactor
+Here is a recommended order:
 
-In these problems, you'll be _given_ an implementation and then asked to change it. Once you've updated it you'll need to double check that the code is still working... you'll need to run the assertions again
+1. `get-angle-type.js`
+1. `is-proper-fraction.js`
+1. `get-card-value.js`
+1. `is-valid-triangle.js`
+1. `rotate-char.js`
