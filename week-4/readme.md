@@ -27,4 +27,4 @@ Use the acceptance criteria as an aid in writing tests to check your functionali
 
 ## 💪 Stretch
 
-Try implementing `password-validator.js` and ``
+Try implementing the functions specified in `password-validator.js` and `card-validator.md`
