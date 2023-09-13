@@ -20,7 +20,7 @@ In these problems, you'll be _given_ an implementation and then asked to change 
 In the `implement` directory you've got a number of functions you'll need to implement.
 For each function, you also have a number of different cases you'll need to check for your function.
 
-_Write assertions_ for the different cases using `console.assert` to check your functions as you're implementing them.
+Use the acceptance criteria as an aid to **_write assertions_** for the different cases using `console.assert`. Use your assertions to check the functionality you're building as you go along.
 
 Here is a recommended order:
 
