@@ -3,7 +3,7 @@ name: Test
 on:
   pull_request:
     branches:
-      - "week-1/**"
+      - "main"
 
 jobs:
   check-diff:
@@ -15,17 +15,17 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: "Check that diff isn't too large"
+      - name: "Check that diff isn't too small"
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           FILES_CHANGED=$(gh pr diff ${{github.event.pull_request.number}} --name-only | wc -l)
           echo "Number of files changed in this PR: ${FILES_CHANGED}"
-          if [ $FILES_CHANGED -gte 13 ]
+          if [ $FILES_CHANGED -gte 5 ]
           then
-            echo "You've updated the right number of files for week 1 - good work! 😎"
+            echo "You've updated at least some files good work! 😎"
             exit 1
           else 
-            echo "Looks like you've not answered some of the exercises"
+            echo "Looks like you've not completed enough of the exercises"
             exit 0
           fi
