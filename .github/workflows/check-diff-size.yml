@@ -3,7 +3,7 @@ name: Test
 on:
   pull_request:
     branches:
-      - "week-1/*"
+      - "week-1/**"
 
 jobs:
   check-diff:
