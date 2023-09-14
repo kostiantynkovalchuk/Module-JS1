@@ -1,0 +1,31 @@
+name: Test
+
+on:
+  pull_request:
+    branches:
+      - "week-1/*"
+
+jobs:
+  check-diff:
+    name: Check diff size
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: "Check that diff isn't too large"
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          FILES_CHANGED=$(gh pr diff ${{github.event.pull_request.number}} --name-only | wc -l)
+          echo "Number of files changed in this PR: ${FILES_CHANGED}"
+          if [ $FILES_CHANGED -gte 13 ]
+          then
+            echo "You've updated the right number of files for week 1 - good work! 😎"
+            exit 1
+          else 
+            echo "Looks like you've not answered some of the exercises"
+            exit 0
+          fi
