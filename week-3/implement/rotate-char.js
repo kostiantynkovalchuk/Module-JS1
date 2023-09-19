@@ -16,7 +16,7 @@
 // Given a lowercase letter character (char) and a positive integer shift,
 // When the function is called with these inputs,
 // Then it should rotate the lowercase letter by shift positions within the lowercase alphabet, wrapping around if necessary, and return the rotated lowercase letter as a string.
-console.log(rotateCharacter("a", 3)); // Output: "a"
+console.log(rotateCharacter("a", 3)); // Output: "d"
 console.log(rotateCharacter("f", 1)); // Output: "f"
 
 // Scenario: Rotate Uppercase Letters:

@@ -1,4 +1,4 @@
-// You will need to implement a function getAngleType
+// Implement a function getAngleType
 
 // Acceptance criteria:
 
@@ -7,21 +7,21 @@
 // Then it should:
 
 // Identify Right Angles:
-// If the angle is exactly 90 degrees,
+// When the angle is exactly 90 degrees,
 // Then the function should return "Right angle"
 
 // Identify Acute Angles:
-// If the angle is less than 90 degrees,
+// When the angle is less than 90 degrees,
 // Then the function should return "Acute angle"
 
 // Identify Obtuse Angles:
-// If the angle is greater than 90 degrees and less than 180 degrees,
+// When the angle is greater than 90 degrees and less than 180 degrees,
 // Then the function should return "Obtuse angle"
 
 // Identify Straight Angles:
-// If the angle is exactly 180 degrees,
+// When the angle is exactly 180 degrees,
 // Then the function should return "Straight angle"
-// Identify Reflex Angles:
 
-// If the angle is greater than 180 degrees and less than 360 degrees,
+// Identify Reflex Angles:
+// When the angle is greater than 180 degrees and less than 360 degrees,
 // Then the function should return "Reflex angle"
