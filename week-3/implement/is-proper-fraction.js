@@ -1,6 +1,10 @@
 // You wil need to implement a function isProperFraction
 // You need to write assertions for your function to check it works in different cases
 
+// Terms:
+// Fractions: https://www.bbc.co.uk/bitesize/topics/zt9n6g8/articles/zjxpp4j
+// Written here like this: 1/2 == Numerator/Denominator
+
 // Acceptance criteria:
 
 // Proper Fraction check:
