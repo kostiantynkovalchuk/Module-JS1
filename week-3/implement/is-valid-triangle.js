@@ -1,6 +1,6 @@
 // STRETCH Implement a function isValidTriangle
 // Terms
-// the Law of Triangle Inequality is: the sum of any two sides is always greater than the third side.
+// the Triangle Inequality says: the sum of any two sides is always greater than the third side.
 // practical examples:
 // Side a = 3
 // Side b = 3
