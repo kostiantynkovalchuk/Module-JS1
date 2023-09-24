@@ -1,7 +1,8 @@
-// A set of words can be grouped together in different cases.
+// A set of words can be written grouped together in different cases.
 
-// For example, "hello there" in snake case would be written "hello_there"
-// UPPER_SNAKE_CASE means taking a string and writing it in
+// For example, "hello there" in snake case would be written "hello_there".
+// UPPER_SNAKE_CASE means taking a string and writing it in snake case,
+// and also converting all letters to be in upper case.
 
 // Implement a function that:
 
