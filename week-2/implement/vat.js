@@ -7,4 +7,4 @@
 
 // Given a number,
 // When I call this function with a number
-// it returns the new price with VAT added on
+// Then it returns the new price with VAT added on
