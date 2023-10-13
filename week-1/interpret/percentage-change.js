@@ -13,10 +13,8 @@ console.log(`The percentage change is ${percentageChange}`);
 
 // a) How many function calls are there in this file? Write down all the lines where a function call is made
 
-// b) Run the code and identify the line where the error is coming from - why is this error occurring? How can you fix this problem?
+// b) Identify all the lines that are variable reassignment statements
 
-// c) Identify all the lines that are variable reassignment statements
+// c) Identify all the lines that are variable declarations
 
-// d) Identify all the lines that are variable declarations
-
-// e) Describe what the expression Number(carPrice.replaceAll(",","")) is doing - what is the purpose of this expression?
+// d) Describe what the expression Number(carPrice.replaceAll(",","")) is doing - what is the purpose of this expression?
