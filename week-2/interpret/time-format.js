@@ -29,12 +29,15 @@ console.log(formatTimeDisplay(143));
 
 // Call formatTimeDisplay with an input of 143, now answer the following:
 
-// b) What is the value assigned to num when pad is called for the first time?
+// b) What value is assigned to the parameter num when pad is called for the first time?
 
-// c) What is the return value of pad is called for the first time?
+// c) What is the return value of pad when it is called for the first time?
 
-// d) What is the value assigned to num when pad is called for the last time in this program?  Explain your answer
+// d) What is the value assigned to the parameter num when pad
+// is called for the last time in this program?  Explain your answer
 
-// e) What is the return value assigned to num when pad is called for the last time in this program?  Explain your answer
+// e) What is the return value when pad is called
+// for the last time in this program?  Explain your answer
 
-// f) Research a better way of padding the numbers in this code. Look up the string functions on mdn
+// f) Research an alternative way of padding the numbers in this code.
+// Look up the string functions on mdn
