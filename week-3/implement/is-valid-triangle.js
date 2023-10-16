@@ -1,5 +1,6 @@
-// STRETCH Implement a function isValidTriangle
-// Terms
+// Implement a function isValidTriangle
+
+// 🗝️ Terms
 // the Triangle Inequality says: the sum of any two sides is always greater than the third side.
 // practical examples:
 // Side a = 3
