@@ -17,13 +17,13 @@ console.log(result);
 
 // b) How many function calls are there?
 
-// c) Using documentation, explain what the expression movieLength % 60 represents
+// c) Using documentation on MDN, explain what the expression movieLength % 60 represents
 
 // d) Interpret line 4, what does the expression assigned to totalMinutes mean?
 
 // e) What do you think the variable result represents? Can you think of a better name for this variable?
 
-// f) Think about whether this function will work for all values of movieLength.
+// f) Think about whether this program will work for all values of movieLength.
 //    Think of what values may cause problems for the code.
 //    Decide the result should be for those values, then test it out.
 //    Can you find any values of movieLength which don't give you what you'd expect?
