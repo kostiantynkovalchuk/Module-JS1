@@ -7,7 +7,7 @@
 
 // Given a string input like "hello there"
 // When we call this function with the input string
-// Then it returns the string in UPPER_CAMEL_CASE, so "HELLO_THERE"
+// Then it returns the string in UPPER_SNAKE_CASE, so "HELLO_THERE"
 
 // Test case: we expect "lord of the rings" to be "LORD_OF_THE_RINGS"
 // Test case: we expect "the great gatsby" to be "THE_GREAT_GATSBY"
