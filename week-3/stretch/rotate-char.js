@@ -40,3 +40,32 @@ console.log(rotateCharacter("7", 5)); // Output: "7" (unchanged, not a letter)
 // Then it should correctly rotate the character by shift positions within the alphabet while handling the wraparound,
 // And the function should return the rotated character as a string (e.g., 'z' rotated by 3 should become 'c', 'Z' rotated by 3 should become 'C').
 console.log(rotateCharacter("z", 1)); // Output: "a" (unchanged, not a letter)
+
+function rotateCharacter(char, shift) {
+  const lowercaseAlphabet = "abcdefghijklmnopqrstuvwxyz";
+  const uppercaseAlphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
+  // Check if the character is lowercase
+  if (lowercaseAlphabet.includes(char)) {
+    let index = lowercaseAlphabet.indexOf(char);
+    let newIndex = (index + shift) % 26; // Wrap around using modulo
+    return lowercaseAlphabet[newIndex];
+  }
+  // Check if the character is uppercase
+  else if (uppercaseAlphabet.includes(char)) {
+    let index = uppercaseAlphabet.indexOf(char);
+    let newIndex = (index + shift) % 26; // Wrap around using modulo
+    return uppercaseAlphabet[newIndex];
+  }
+  // If it's not a letter, return it unchanged
+  return char;
+}
+
+// Test cases
+console.log(rotateCharacter("a", 3)); // Output: "d"
+console.log(rotateCharacter("f", 1)); // Output: "g"
+console.log(rotateCharacter("A", 3)); // Output: "D"
+console.log(rotateCharacter("F", 1)); // Output: "G"
+console.log(rotateCharacter("7", 5)); // Output: "7" (unchanged, not a letter)
+console.log(rotateCharacter("z", 1)); // Output: "a"
+console.log(rotateCharacter("Z", 3)); // Output: "C"
