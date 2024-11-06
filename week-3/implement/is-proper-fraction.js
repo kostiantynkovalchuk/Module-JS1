@@ -55,12 +55,4 @@ function isProperFraction(fractionValue) {
   }
 }
 
-const currentOutput = isProperFraction("2/2");
-const targetOutput = false;
-
-console.assert(
-  currentOutput === targetOutput,
-  `current output is %s, target output is %s`,
-  currentOutput,
-  targetOutput
-);
+module.exports = isProperFraction; // .js

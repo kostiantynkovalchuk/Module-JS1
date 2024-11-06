@@ -38,4 +38,4 @@ function getAngleType(angle) {
   }
   return "Write an angle value";
 }
-console.log(getAngleType());
+module.exports = getAngleType; // .js

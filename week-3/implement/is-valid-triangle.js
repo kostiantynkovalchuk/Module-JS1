@@ -51,3 +51,4 @@ function isValidTriangle(a, b, c) {
   }
 }
 console.log(isValidTriangle(1, 2, 3));
+module.exports = isValidTriangle; // .js
