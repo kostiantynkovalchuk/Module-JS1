@@ -14,3 +14,13 @@ To be valid, a password must:
 
 You must breakdown this problem in order to solve it. Find one test case first and get that working
 */
+
+const passIsValid = (input) => {
+  let savedPass = [];
+  if (input.length >= 5) {
+    return true;
+  }
+  return false;
+};
+
+console.log(passIsValid("erty"));

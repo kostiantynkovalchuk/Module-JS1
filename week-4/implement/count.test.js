@@ -18,13 +18,21 @@
 
 function countChar(str, char) {
   let index = 0;
-  while (str[index] < str.length) {
+  let maxCount = 0;
+  let currentCount = 0;
+  while (index < str.length) {
     if (str[index] === char) {
-      return index;
+      currentCount++;
+      maxCount = Math.max(maxCount, currentCount);
+    } else {
+      currentCount = 0;
     }
     index++;
   }
-  return -1;
+  return maxCount;
 }
 
-console.lop(countChar("Ananda", "a"));
+console.log(countChar("aaaaa", "a"));
+test("first test", () => {
+  expect(countChar("aaaaa", "a")).toBe(5);
+});
